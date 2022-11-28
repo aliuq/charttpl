@@ -3,6 +3,7 @@ on:
   schedule:
     # per 4 hours
     - cron: '0 */4 * * *'
+  workflow_dispatch:
 jobs:
   sync:
     runs-on: ubuntu-latest
